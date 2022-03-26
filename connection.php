@@ -1,5 +1,7 @@
 <?php
-$conn_string = "host=172.28.0.2 port=5432 dbname=wp2_b user=postgres password=rahasia";
+$conn_string = "host=satao.db.elephantsql.com port=5432 " . 
+    "dbname=beajxgfa user=beajxgfa " .
+    "password=kkaCHFWCIBj_PspeTB1WoqeQ3C2n4_0T";
 $conn = pg_connect($conn_string);
 
 if($conn) {
